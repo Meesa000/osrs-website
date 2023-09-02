@@ -1,0 +1,23 @@
+
+body {
+    background-color:#454545;
+    font-family: "VT323", monospace;
+    margin: 0;
+  }
+
+
+
+
+.nav-list{
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.nav-list li {
+    list-style: none;
+    margin-right: 1rem;
+}
