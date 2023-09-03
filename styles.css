@@ -12,12 +12,37 @@ body {
     display: flex;
     height: 50px;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center;   
+}
+
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 1rem;
+    color: white;
     
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+}
+
+
+.flex-container {
+    display: flex;
+    height: 400px;
+ 
 
 }
 
-.nav-list li {
-    list-style: none;
-    margin-right: 1rem;
+.flexbox-two {
+    height: 450px;
+    background-color: #4a90e2;
+
 }
